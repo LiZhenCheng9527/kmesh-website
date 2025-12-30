@@ -42,3 +42,4 @@ jobs:
           branch: "version-${{ steps.extract_version.outputs.version }}"
           base: "main"
           delete-branch: true
+          signoff: true
